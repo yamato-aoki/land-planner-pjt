@@ -14,9 +14,9 @@ export default function HeroSection() {
         <div className="max-w-2xl space-y-6 animate-fade-in-up">
           {/* キャッチコピー */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight">
-            その土地の未来を、
+            その土地のを歴史に、
             <br />
-            確かな専門知識で拓く。
+            新しい未来を拓く。
           </h1>
 
           {/* サブテキスト */}
