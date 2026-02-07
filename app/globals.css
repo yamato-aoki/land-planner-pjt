@@ -1,10 +1,11 @@
 /* Heroセクションの背景画像をSP/PCで切り替え */
+/* グラデーションを薄く（明るく） */
 .hero-bg-img {
-  background-image: linear-gradient(135deg, rgba(26,46,53,0.6) 0%, rgba(26,46,53,0.3) 50%, transparent 100%), url('/bird.png');
+  background-image: linear-gradient(135deg, rgba(26,46,53,0.3) 0%, rgba(26,46,53,0.15) 50%, transparent 100%), url('/bird.png');
 }
 @media (max-width: 767px) {
   .hero-bg-img {
-    background-image: linear-gradient(135deg, rgba(26,46,53,0.6) 0%, rgba(26,46,53,0.3) 50%, transparent 100%), url('/bird_sp.png');
+    background-image: linear-gradient(135deg, rgba(26,46,53,0.3) 0%, rgba(26,46,53,0.15) 50%, transparent 100%), url('/bird_sp.png');
   }
 }
 @tailwind base;
