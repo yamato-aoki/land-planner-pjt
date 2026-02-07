@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+/.next
+/out
+
+# misc
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# --- legacy html/css/js exclude ---
+/src/
